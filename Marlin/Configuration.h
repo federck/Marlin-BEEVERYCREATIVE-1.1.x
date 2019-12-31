@@ -78,7 +78,7 @@
 // #define hBp_TMC2208ext
 //
 // -Trinamic TMC2208/2100 on all axis
-// #define hBp_TMC2208all
+#define hBp_TMC2208all
 //
 //
 //
@@ -98,7 +98,7 @@
 //
 //
 // If your helloBEEprusa has bowden extruders please uncomment the following line.
-//#define hBp_Bowden
+#define hBp_Bowden
 //
 //
 //
