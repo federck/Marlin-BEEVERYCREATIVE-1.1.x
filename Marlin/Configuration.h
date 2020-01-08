@@ -885,9 +885,9 @@
 	#define INVERT_Y_DIR false
 	#define INVERT_Z_DIR false
 #else
-	#define INVERT_X_DIR false
-	#define INVERT_Y_DIR true
-	#define INVERT_Z_DIR true
+	#define INVERT_X_DIR true
+	#define INVERT_Y_DIR false
+	#define INVERT_Z_DIR false
 #endif
 
 // Enable this option for Toshiba stepper drivers
@@ -956,9 +956,9 @@
 #define Z_MAX_POS 190
 
 // If enabled, axes won't move below MIN_POS in response to movement commands.
-//#define MIN_SOFTWARE_ENDSTOPS
+#define MIN_SOFTWARE_ENDSTOPS
 // If enabled, axes won't move above MAX_POS in response to movement commands.
-//#define MAX_SOFTWARE_ENDSTOPS
+#define MAX_SOFTWARE_ENDSTOPS
 
 /**
  * Filament Runout Sensor
@@ -1426,7 +1426,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-#define SDSUPPORT
+//#define SDSUPPORT
 
 /**
  * SD CARD: SPI SPEED
