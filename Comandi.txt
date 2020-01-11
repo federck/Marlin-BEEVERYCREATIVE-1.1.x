@@ -1,5 +1,17 @@
+M502 //Sovrascrivi i dati sulla EEPROM con quelli della memoria flash (ovvero riprisitina i valori definiti nel firmware)
+
 M92 X80.13 Y80.27 Z4000.00
 M92 T0 E90.00
 M92 T1 E90.00
 
-M500
+G29 S3 X1 Y1 Z0.80000
+G29 S3 X2 Y1 Z0.90000
+G29 S3 X3 Y1 Z1.10000
+G29 S3 X1 Y2 Z1.00000
+G29 S3 X2 Y2 Z1.10000
+G29 S3 X3 Y2 Z1.20000
+G29 S3 X1 Y3 Z1.20000
+G29 S3 X2 Y3 Z1.30000
+G29 S3 X3 Y3 Z1.30000
+
+M500 //Salva le modifiche al firmware sulla EEPROM
