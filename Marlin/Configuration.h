@@ -899,14 +899,14 @@
 
 // DR - Inverts the stepping direction for the trinamics
 #if ( ENABLED(hBp_TMC2208ext) || ENABLED(hBp_TMC2208all) )
-	#define INVERT_E0_DIR true
+	#define INVERT_E0_DIR false
 	#define INVERT_E1_DIR false
 	#define INVERT_E2_DIR true
 	#define INVERT_E3_DIR true
 	#define INVERT_E4_DIR true
 	
 #else
-	#define INVERT_E0_DIR true
+	#define INVERT_E0_DIR false
 	#define INVERT_E1_DIR false
 	#define INVERT_E2_DIR false
 	#define INVERT_E3_DIR false
