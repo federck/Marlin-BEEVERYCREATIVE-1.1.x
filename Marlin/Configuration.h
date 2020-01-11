@@ -236,7 +236,7 @@
 	#define HOTEND_OFFSET_Y {0.0, 0.30}  // (in mm) for each extruder, offset of the hotend on the Y axis
 #else
 	//has bowden
-	#define HOTEND_OFFSET_X {0.0, 13.0} // (in mm) for each extruder, offset of the hotend on the X axis
+	#define HOTEND_OFFSET_X {0.0, 45.30} // (in mm) for each extruder, offset of the hotend on the X axis
 	#define HOTEND_OFFSET_Y {0.0, 0.00}  // (in mm) for each extruder, offset of the hotend on the Y axis
 #endif
 	
